@@ -1,3 +1,57 @@
+html * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brand h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: blue;
+    letter-spacing: 1.25rem;
+    text-align: center;
+    text-shadow: 3px 2px 4px gray;
+
+}
+
+.brand h5 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.25em;
+    color: darkgrey;
+    letter-spacing: 0.75rem;
+}
+
+.flex-container-about {
+    display:inline-block;
+    flex-direction: column;
+}
+
+.flex-container-about > div {
+    width: 650px;
+    margin: 25px;
+    text-align: justify;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.flex-container-title {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.flex-container-contact {
+    display:inline-block;
+    flex-direction: column;
+}
+
+.flex-container-contact > div {
+    width: 650px;
+    margin: 25px;
+    text-align: justify;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
 #pets{
     display: grid;
     grid-template-columns: repeat(4,1fr);
