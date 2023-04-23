@@ -20,6 +20,7 @@ html * {
     letter-spacing: 0.75rem;
 }
 
+
 .flex-container-about {
     display:inline-block;
     flex-direction: column;
@@ -28,6 +29,16 @@ html * {
     text-align: justify;
     line-height: 28px;
     font-size: 20px;
+}
+
+
+.flex-container-about > h2 {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.25em;
+    color: blue;
+    letter-spacing: 0.25rem;
+    text-shadow: 2px 1px 2px black;
 }
 
 
@@ -41,6 +52,15 @@ html * {
     font-size: 20px;
 }
 
+.flex-container-contact > h2 {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.25em;
+    color: blue;
+    letter-spacing: 0.25rem;
+    text-shadow: 2px 1px 2px black;
+}
+
 .flex-container-login {
     display:inline-block;
     flex-direction: column;
@@ -49,6 +69,15 @@ html * {
     text-align: justify;
     line-height: 28px;
     font-size: 20px;
+}
+
+.flex-container-login > h2 {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.25em;
+    color: blue;
+    letter-spacing: 0.25rem;
+    text-shadow: 2px 1px 2px black;
 }
 
 
@@ -61,6 +90,41 @@ html * {
     line-height: 28px;
     font-size: 20px;
 }
+
+.flex-container-registration > h2 {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.25em;
+    color: blue;
+    letter-spacing: 0.25rem;
+    text-shadow: 2px 1px 2px black;
+}
+
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #pets{
