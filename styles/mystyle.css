@@ -23,31 +23,42 @@ html * {
 .flex-container-about {
     display:inline-block;
     flex-direction: column;
-}
-
-.flex-container-about > div {
     width: 650px;
     margin: 25px;
     text-align: justify;
-    line-height: 32px;
+    line-height: 28px;
     font-size: 20px;
 }
 
-.flex-container-title {
-    font-size: 1.5em;
-    font-weight: bolder;
-}
 
 .flex-container-contact {
     display:inline-block;
     flex-direction: column;
-}
-
-.flex-container-contact > div {
     width: 650px;
     margin: 25px;
     text-align: justify;
-    line-height: 32px;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.flex-container-login {
+    display:inline-block;
+    flex-direction: column;
+    width: 650px;
+    margin: 25px;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+
+.flex-container-registration {
+    display:inline-block;
+    flex-direction: column;
+    width: 650px;
+    margin: 25px;
+    text-align: justify;
+    line-height: 28px;
     font-size: 20px;
 }
 
