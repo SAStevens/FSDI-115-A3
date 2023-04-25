@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px) {
     div {
         max-width: 100%;
-        background-color: rgb(161, 219, 241);
+        background-color: rgb(255, 90, 90);
     }
 }
 
@@ -52,7 +52,6 @@ html * {
     font-size: 20px;
 }
 
-
 .flex-container-about {
     display:inline-block;
     flex-direction: column;
@@ -63,7 +62,6 @@ html * {
     font-size: 20px;
 }
 
-
 .flex-container-about > h2 {
     text-transform: uppercase;
     text-align: justify;
@@ -72,7 +70,6 @@ html * {
     letter-spacing: 0.25rem;
     text-shadow: 2px 1px 2px black;
 }
-
 
 .flex-container-contact {
     display:inline-block;
@@ -112,7 +109,6 @@ html * {
     text-shadow: 2px 1px 2px black;
 }
 
-
 .flex-container-registration {
     display:inline-block;
     flex-direction: column;
@@ -132,7 +128,6 @@ html * {
     text-shadow: 2px 1px 2px black;
 }
 
-
 footer {
     background-color: blue;
     color: white;
@@ -144,4 +139,3 @@ footer a {
     margin: 0 10px;
     text-align: center;
 }
-
