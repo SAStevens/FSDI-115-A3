@@ -34,6 +34,14 @@ html * {
     overflow: hidden;
 }
 
+.carousel-caption {
+    color: blue !important;
+    text-shadow: 3px 2px 3px black;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
 .topic {
     display:inline-block;
     flex-direction: column;
